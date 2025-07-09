@@ -7,7 +7,7 @@ const cors = require('cors');
 
 // ✅ Habilita CORS para el frontend en http://localhost:4200
 app.use(cors({
-  origin: 'http://localhost:4200',
+  origin: 'https://front-tarjetones.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
 }));
