@@ -1,0 +1,14 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar entorno
+.env
+
+# Ignorar logs
+*.log
+
+# Otros comunes
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
